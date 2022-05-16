@@ -1,0 +1,17 @@
+.ant-modal {
+    width: 90vw !important;
+    height: 80vh !important;
+}
+.ant-modal-content {
+    height: 80vh !important;
+}
+.ant-modal-header {
+    display: none !important;
+}
+.ant-modal-footer {
+    display: none !important;
+}
+.img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}

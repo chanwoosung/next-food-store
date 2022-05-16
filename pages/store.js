@@ -30,7 +30,7 @@ export default function Store({data}) {
                     )})}
                 </Row>
             </div>
-            {id !=0 ?<StoreModal id={id}/>:null}
+            {id !=0 ?<StoreModal setId={setId} id={id}/>:null}
             <style jsx>
                 {`
                     .card-flex.mini {
