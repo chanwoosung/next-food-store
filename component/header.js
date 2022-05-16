@@ -10,7 +10,7 @@ export default function Header() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <header>
-                <div></div>
+                <div>AWESOME FOOD STORE</div>
                 <div className="menu-wrap">
                     <ul>
                         <li>
@@ -21,7 +21,11 @@ export default function Header() {
                         </li>
                     </ul>
                 </div>
-                <div>AWESOME FOOD STORE</div>
+                <div className="c-header-logo">
+                    <Link href="/" class="c-home-link">
+                        <img src="https://www.common-ground.co.kr/images/c-header-logo.png" alt="common-ground-logo"/>
+                    </Link>
+                </div>
             </header>
             <style jsx>
             {`
@@ -34,6 +38,12 @@ export default function Header() {
                     justify-content: space-between;
                     align-items: center;
                     z-index: 10;
+                }
+                header img {
+                    height: 48px;
+                }
+                .c-header-logo a {
+                    display: flex;
                 }
                 ul {
                     list-style: none;
